@@ -36,7 +36,7 @@ namespace sample_project
             }
             else
             {
-                Console.WriteLine("Leap Year");
+                Console.WriteLine($"{year} is Leap Year");
             }
         }
     }
