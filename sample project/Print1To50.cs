@@ -10,9 +10,17 @@ namespace sample_project
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i <= 50; i++)
+            //for (int i = 0; i <= 50; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            int i = 0;
+
+            while (i<=50)
             {
                 Console.WriteLine(i);
+                i++;
             }
         }
     }

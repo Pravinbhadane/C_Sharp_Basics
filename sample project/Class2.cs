@@ -13,10 +13,18 @@ namespace sample_project
             Console.WriteLine("Enter Number");
             int number = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 1; i <= 10; i++)
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(number*i);
+            //}
+
+            int i = 1;
+            while (i <=10)
             {
-                Console.WriteLine(number*i);
+                Console.WriteLine( number * i);
+                i++;
             }
+            
         }
     }
 }
