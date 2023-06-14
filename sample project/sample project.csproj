@@ -6,7 +6,7 @@
     <RootNamespace>sample_project</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>sample_project.DivisibleBy5n11</StartupObject>
+    <StartupObject>sample_project.Class2</StartupObject>
   </PropertyGroup>
 
 </Project>
